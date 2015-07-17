@@ -4,6 +4,10 @@
   "private": true,
   "author": "Atsushi Nagase <a@ngs.io>",
   "description": "Our Hubot for Cron",
+  "scripts": {
+    "test": "echo 'no tests'",
+    "start": "EXPRESS_PORT=8023 ./bin/hubot -a slack"
+  },
   "dependencies": {
     "hubot": "^2.13.2",
     "hubot-alias": "^0.1.7",
